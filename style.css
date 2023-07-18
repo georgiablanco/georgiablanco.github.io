@@ -20,7 +20,7 @@ html {
   a {
     font-weight: normal;
     text-decoration: none; 
-    color:#EF6D3D;
+    color: magenta;
   }
   a:focus {
     outline: thin dotted;
@@ -108,12 +108,14 @@ html {
     background: rgba(0,0,0,.8); 
     padding:25px;
     color:#FFFFFF;
+    border-top: magenta 2px solid;
   }
 
   .header-region {
     justify-content: space-between;
     display: flex;
     align-items: center;
+    border-bottom: 5px solid magenta;
   }
 
   .social-icons {
@@ -135,12 +137,12 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    list-style: none;
+    list-style: none;    
   }
   ul.main-menu li a {
     margin-right:20px;
     font-size:2.0rem;
-    border-bottom: solid transparent 3px;
+    border-bottom: 2px solid transparent;
     color:#cfd2da;
   }
   ul.main-menu li a:hover {
@@ -148,8 +150,9 @@ html {
   }
   ul.main-menu li a.active {
     color:#FFFFFF;
-    border-bottom-color:#EF6D3D;
+    border-bottom-color: magenta;
   }
+
 
   /* Utility classes */
   .hide {

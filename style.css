@@ -153,6 +153,43 @@ html {
     border-bottom-color: magenta;
   }
 
+  /* inherit from above */
+  ul.projects-menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    list-style: none;    
+  }
+  ul.projects-menu li a {
+    margin-right:20px;
+    font-size:2.0rem;
+    border-bottom: 2px solid transparent;
+    color:#cfd2da;
+  }
+  ul.projects-menu li a:hover {
+    color:#FFFFFF;
+  }
+  ul.projects-menu li a.active {
+    color:#FFFFFF;
+    border-bottom-color: magenta;
+  }
+
+  .profile-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-images img {
+    max-height: 150px;
+    max-width: 200px;
+    height: auto;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 
   /* Utility classes */
   .hide {

@@ -4,7 +4,6 @@
     <!-- Page setup -->
     <meta charset="utf-8">
     <title>Georgia Blanco-Litchfield</title>
-    <meta name="description" content="A webstite for Georgia's life">
     <meta name="author" content="Georgia Blanco-Litchfield>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
     <link rel="icon" type="image/png" href="images/favicon.png"/>
@@ -55,25 +54,177 @@
       <div class="inner">
         <div id="content"> 
           
-          <div id="about_me" class="content-region hide">
-            <h2>Hi, I'm Georgia!</h2>
+          <div id="about_me" class="main-region hide">
+            <h2>My journey so far...</h2>
+            <h4>I'm a UK-based software engineer committed to leveraging technology for the betterment of society.</h4>
             <p>
-              Information about me...
+              During my studies in Electronic Engineering, I found my calling in specialising in Computer Systems, I decided to 
+              dedicate my career to working with cutting-edge technologies that make a positive impact on people's lives 
+              and address global challenges.
+            </p>
+            <div class="profile-images">
+              <img src="images/sky_presenting.jpg" alt="Presenting at Sky">
+              <img src="images/sky_team.JPG" alt="Sky Team">
+              <img src="images/shadow_robot_erf.jpg" alt="Shadow Robot at ERF 2023">
+              <img src="images/shadow-robot.jpg" alt="Shadow Robot Teleoperation System">
+            </div>
+            <p>
+              <br>
+              I have worked on a variety of projects, from developing a automating a buisness-critical testing process for a 
+              leading media and entertainment company to developing software for next-generation robotic hands and systems 
+              with advanced dexterity to help solve challenging problems in the robotic automation and teleoperation industries.
+              <br>
+              Beyond coding, I'm an outgoing and inquisitive individual.
+              I thrive on leading projects and guiding teams, fostering collaboration and creativity to deliver exceptional results.
+              Embracing yoga and immersive travel experiences, I cultivate a balanced approach to life that fuels my drive to create
+              innovative tech solutions and inspire meaningful change worldwide.
             </p>
           </div>
           
-          <div id="resume" class="content-region hide">
+          <div id="resume" class="main-region hide">
             <h2>Resume</h2>
-            <p>
-              Here is my resume, if you would like to download it, please click <a href="https://drive.google.com/file/d/10X1WcTXndcRQmoqaIC0cMXVc-vS6Nx_L/view?usp=sharing" target="_blank">here</a>.
-            </p>
             <iframe src="https://drive.google.com/file/d/10X1WcTXndcRQmoqaIC0cMXVc-vS6Nx_L/preview" allow="autoplay"></iframe>
+            <br>
+            <p>
+              If you would like to download my resume, please click <a href="https://drive.google.com/file/d/10X1WcTXndcRQmoqaIC0cMXVc-vS6Nx_L/view?usp=sharing" target="_blank">here</a>.
+            </p>
           </div>
           
-          <div id="projects" class="content-region hide">
-            <h2>
-              *Insert projects here*
-            </h2>
+          <div id="projects" class="main-region hide">
+            <h4>
+              On this page you will find information about some of the projects I have and am currently working on.
+            </h4>
+            <br>
+            <ul class="projects-menu">
+              <li><a href="#autosmart">Autosmart</a></li>
+              <li><a href="#hri">Robots in Hospitality</a></li>
+              <li><a href="#shadowrobot">Shadow Robot</a></li>
+              <li><a href="#robotquad">Roboquad</a></li>
+            </ul>
+
+            <div id="autosmart" class="projects-region hide">
+              <br>
+              <h4>Placement year project, 2018-19</h4>
+              <h3>Developing an automation solution for AdSmart testing</h3>
+              <img src="images/ADSMART.png" alt="AdSmart" height="200" style="display: block; margin-left: auto; margin-right: auto;">
+              <p>
+                <br>
+                During my time at Sky UK, I took the initiative to propose and lead the Autosmart project. 
+                The project's objective was to develop a program capable of running AdSmart stream tests and 
+                automating key procedures to streamline the testing process and improve overall efficiency.
+                <br>
+                My primary focus was automating four crucial procedures that formed the backbone of AdSmart testing. 
+                This involved creating a program that could efficiently play out specific streams, execute remote 
+                control commands, extract AdSmart reports from the box, and verify the accuracy of the recorded 
+                information in the HTML report. The program's ability to provide a pass-or-fail outcome for each step 
+                allowed us to assess the overall success of the test. Collaborating closely with the Automation Team, 
+                I was given the opportunity to integrate Autosmart with their existing framework.
+                <br>
+                The implementation of Autosmart was success, seamlessly running 24/7 and effectively replacing the 
+                need for one manual tester, significantly improving the efficiency of AdSmart testing at Sky UK.
+                <br><br>
+                A small amount of the code I wrote for Autosmart can be found <a href="https://github.com/georgiablanco/autosmart_v2" target="_blank">here</a>.
+              </p>
+            </div>
+            <div id="hri" class="projects-region hide">
+              <br>
+              <h4>Final Year Project, 2019-20</h4>
+              <h3>Researching and developing applications for HRI and Navigation in the hospitality industry</h3>
+              <p>
+                In this project, I conducted research into Human-Robot Interaction (HRI) and Navigation in hospitality settings, 
+                utilising the humanoid robot Pepper developed by SoftBank Robotics. The main focus areas were Interaction and Navigation, 
+                both of which were explored in depth. The project's objectives were split into two areas: Interaction and Navigation.
+                <br>
+                <div class="profile-images">
+                  <img src="images/pepper_conference_person.JPG" alt="Pepper at ENTER2020">
+                  <img src="images/pepper_conference.jpg" alt="Pepper at Open Day">
+                  <img src="images/pepper_restaurant.jpeg" alt="Pepper in Hospitality">
+                </div>
+                <br>
+                For the Interaction aspect, I developed applications for Pepper to function in a customer service role by incorporating 
+                conversational capabilities and tablet functionality. This involved implementing prompted question-and-answer interactions, 
+                branching conversation trees, and autonomous animations to enhance anthropomorphism. To demonstrate the developed 
+                functionalities, I deployed Pepper at various events, including the ENTER2020 International eTourism Conference, 
+                an Open Day for the University of Surrey's Centre for Vision, Speech, and Signal Processing, and research in a hospitality 
+                PhD focused on AI and Robotics in Restaurants.
+                <br>
+                Challenges arose, particularly in terms of voice recognition and handling complex conversations. Although Pepper's 
+                capabilities were limited in this regard, potential future work was identified, such as integrating more advanced chatbot 
+                capabilities using web services and machine learning.
+                <br><br>
+                <div class="profile-images">
+                  <img src="images/gmap_2D.png" alt="2D gmap">
+                  <img src="images/premapped.png" alt="3D Premapped environment">
+                  <img src="images/octo_2D.png" alt="2D octomap">
+                </div>
+                <br>
+                During the Navigation experiments, I tested Pepper's ability to safely and efficiently navigate in cluttered and dynamic 
+                environments commonly found in hospitality settings. The focus was on mapping, localisation, and path planning, with 
+                considerations for environmental variables in the third dimension. I utilised 2D and 3D Simultaneous Localisation and 
+                Mapping (SLAM) techniques, combined with 2D path planning, to establish a 2.5D navigation pipeline. All of this was 
+                accomplished within the Robot Operating System (ROS) framework.
+                <br>
+                In the Navigation aspect, I encountered challenges related to localization using Pepper's ground laser sensors, 
+                which affected path planning. To address this, I introduced the RTAB-Map algorithm, which produced accurate SLAM using 
+                Pepper's RGB and Depth camera data, resulting in successful localisation and path planning stages.
+                <br>
+                An accelerated video of Pepper path planning in a selection of the restaurant with a selection of the path planners 
+                used in this work can be found <a href="https://www.youtube.com/watch?v=X5Sw3S2boxA" target="_blank">here</a>.
+                <br>
+                The project's overall conclusion was that Pepper demonstrated successful HRI and Navigation capabilities in hospitality 
+                environments, utilising the NAOqi and ROS frameworks. Despite the success, there are opportunities for further improvement, 
+                which may involve additional software and hardware capabilities for Pepper, requiring investment in time and resources,
+                which unfortunately was not possible during the project's timeframe.
+              </p>
+            </div>
+            <div id="shadowrobot" class="projects-region hide">
+              <br>
+              <h4>Software Engineer, 2020-23</h4>
+              <h3>Developing robotics to solve real-world problems</h3>
+              <p>
+                Working at Britains longest-running robotics company, I have been involved in a variety of projects.
+                <br><br>
+                <img src="images/shadow_robot.jpg" alt="Shadow Robot Hand" height="150" style="display: block; margin-left: auto; margin-right: auto;">
+                <br>
+                My first independent project was developing a of a Grasp Evaluation Framework for a 5-finger, 20 DOF hand with
+                tactile fingertip sensors. The GEF consisted of 3 modules:
+                <br>
+                Grasp Execution Module: this module took a pregrasp and grasp poses and understanding of the workspace contraints to
+                execute a grasp using MoveIt! and the tactile sensors to detect a successful grasp at a certain threshold.
+                <br>
+                Grasp Stability Module: this module then took the pregrasp and grasp poses and the object information to use the tactile 
+                sensors to determine the stability of the grasp using metrics. The literature used for this implementation: 
+                <a href="https://link.springer.com/book/10.1007/978-3-319-01833-1" target="_blank">From Robot to Human Grasping Simulation</a>.
+                <br>
+                Grasp Readjustment Module: this module took the grasp stability evaluation metrics outputted by the Grasp Stability Module
+                and the object information to decide whether the grasp needed to be readjusted.
+                <br><br>
+                <img src="images/shadow-robot.jpg" alt="Shadow Robot Teleoperation System" height="200" style="display: block; margin-left: auto; margin-right: auto;">
+                <br>
+                The project I am most passionate about is my leadership in the roadmap to ensuring the products have stable, bug-free software. 
+                This work came from my initial role in the company as a QA and software engineeer, where I was responsible for developing the 
+                test infrastructure, which involved designing and implementing comprehensive testing frameworks to rigorously assess the 
+                software's performance. Through thorough testing and analysis, I was able to identify and address defects, contributing 
+                significantly to the overall improvement of our products' quality.
+                As the lead of the software development team, I strategised and orchestrated the roadmap, ensuring a well-defined plan to achieve 
+                our goal of stable and bug-free software. Colaborating with other software teams, hardware, customer support and other stakeholders 
+                was key to driving progress, and I fostered an environment of open communication and innovation.
+                <br>
+                An article including me from the most recent conference I attended can be found 
+                <a href="https://metro.co.uk/2023/06/03/these-robot-hands-can-be-controlled-from-anywhere-in-the-world-18886166/" target="_blank">here</a>.
+              </p>
+            </div>
+            <div id="robotquad" class="projects-region hide">
+              <br>
+              <h4>Home Project, 2023-...</h4>
+              <h3>Repurposing faulty robots...</h3>
+              <img src="images/roboquad.png" alt="Roboquad" height="200" style="display: block; margin-left: auto; margin-right: auto;">
+              <p>
+                Recently, I acquired two faulty Roboquads, which I am in the process of repurposing. I will be working with a friend to 
+                develop a new control system for the robots, which will involve replacing some of the existing hardware with new components
+                and reprogramming the robot to be coontrolled potentially via ROS.
+              </p>
+
           </div>
           
         </div>
@@ -81,7 +232,10 @@
     </div>
 
     <footer>  
-      Footer region
+      <div class="footer-region">
+        <p>
+          Copywrite &copy; 2023 Georgia Blanco-Litchfield
+        </p>
     </footer>
     
     <!-- Load additional JS scripts here -->

@@ -176,6 +176,21 @@ html {
     border-bottom-color: magenta;
   }
 
+  .profile-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-images img {
+    max-height: 150px;
+    max-width: 200px;
+    height: auto;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
   /* Utility classes */
   .hide {
     display:none;

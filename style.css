@@ -191,6 +191,22 @@ html {
     margin-left: 10px;
   }
 
+  .profile-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-intro img {
+    max-height: 200px;
+    max-width: 200px;
+    height: auto;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+
   /* Utility classes */
   .hide {
     display:none;

@@ -92,18 +92,20 @@
           
           <div id="projects" class="main-region hide">
             <h4>
-              On this page you will find information about some of the projects I have worked on.
+              On this page you will find information about some of the projects I have and am currently working on.
             </h4>
             <br>
             <ul class="projects-menu">
               <li><a href="#autosmart">Autosmart</a></li>
-              <li><a href="#hri">HRI and Navigation in Hospitality</a></li>
+              <li><a href="#hri">Robots in Hospitality</a></li>
               <li><a href="#shadowrobot">Shadow Robot</a></li>
+              <li><a href="#robotquad">Roboquad</a></li>
             </ul>
 
             <div id="autosmart" class="projects-region hide">
               <br>
               <h4>Placement year project, 2018-19</h4>
+              <h3>Developing an automation solution for AdSmart testing</h3>
               <img src="images/ADSMART.png" alt="AdSmart" height="200" style="display: block; margin-left: auto; margin-right: auto;">
               <p>
                 <br>
@@ -127,8 +129,7 @@
             <div id="hri" class="projects-region hide">
               <br>
               <h4>Final Year Project, 2019-20</h4>
-              <br>
-              <h3>Developing applications for the hospitality industry</h3>
+              <h3>Researching and developing applications for HRI and Navigation in the hospitality industry</h3>
               <p>
                 In this project, I conducted research into Human-Robot Interaction (HRI) and Navigation in hospitality settings, 
                 utilising the humanoid robot Pepper developed by SoftBank Robotics. The main focus areas were Interaction and Navigation, 
@@ -177,11 +178,52 @@
               </p>
             </div>
             <div id="shadowrobot" class="projects-region hide">
-              <h3>Shadow Robot</h3>
+              <br>
+              <h4>Software Engineer, 2020-23</h4>
+              <h3>Developing robotics to solve real-world problems</h3>
               <p>
-                Information about Shadow Robot...
+                Working at Britains longest-running robotics company, I have been involved in a variety of projects.
+                <br><br>
+                <img src="images/shadow_robot.jpg" alt="Shadow Robot Hand" height="150" style="display: block; margin-left: auto; margin-right: auto;">
+                <br>
+                My first independent project was developing a of a Grasp Evaluation Framework for a 5-finger, 20 DOF hand with
+                tactile fingertip sensors. The GEF consisted of 3 modules:
+                <br>
+                Grasp Execution Module: this module took a pregrasp and grasp poses and understanding of the workspace contraints to
+                execute a grasp using MoveIt! and the tactile sensors to detect a successful grasp at a certain threshold.
+                <br>
+                Grasp Stability Module: this module then took the pregrasp and grasp poses and the object information to use the tactile 
+                sensors to determine the stability of the grasp using metrics. The literature used for this implementation: 
+                <a href="https://link.springer.com/book/10.1007/978-3-319-01833-1" target="_blank">From Robot to Human Grasping Simulation</a>.
+                <br>
+                Grasp Readjustment Module: this module took the grasp stability evaluation metrics outputted by the Grasp Stability Module
+                and the object information to decide whether the grasp needed to be readjusted.
+                <br><br>
+                <img src="images/shadow-robot.jpg" alt="Shadow Robot Teleoperation System" height="200" style="display: block; margin-left: auto; margin-right: auto;">
+                <br>
+                The project I am most passionate about is my leadership in the roadmap to ensuring the products have stable, bug-free software. 
+                This work came from my initial role in the company as a QA and software engineeer, where I was responsible for developing the 
+                test infrastructure, which involved designing and implementing comprehensive testing frameworks to rigorously assess the 
+                software's performance. Through thorough testing and analysis, I was able to identify and address defects, contributing 
+                significantly to the overall improvement of our products' quality.
+                As the lead of the software development team, I strategised and orchestrated the roadmap, ensuring a well-defined plan to achieve 
+                our goal of stable and bug-free software. Colaborating with other software teams, hardware, customer support and other stakeholders 
+                was key to driving progress, and I fostered an environment of open communication and innovation.
+                <br>
+                An article including me from the most recent conference I attended can be found 
+                <a href="https://metro.co.uk/2023/06/03/these-robot-hands-can-be-controlled-from-anywhere-in-the-world-18886166/" target="_blank">here</a>.
               </p>
             </div>
+            <div id="robotquad" class="projects-region hide">
+              <br>
+              <h4>Home Project, 2023-...</h4>
+              <h3>Repurposing faulty robots...</h3>
+              <img src="images/roboquad.png" alt="Roboquad" height="200" style="display: block; margin-left: auto; margin-right: auto;">
+              <p>
+                Recently, I acquired two faulty Roboquads, which I am in the process of repurposing. I will be working with a friend to 
+                develop a new control system for the robots, which will involve replacing some of the existing hardware with new components
+                and reprogramming the robot to be coontrolled potentially via ROS.
+              </p>
 
           </div>
           

@@ -94,7 +94,7 @@ html {
    */
   
   /* Full size background image */
-  html, #container, .inner { background-color:transparent;}
+  html, #container, .inner { background-color:transparent; }
   html {
     background:url(images/background.jpg) center center no-repeat fixed;
     background-size:cover;
@@ -183,6 +183,21 @@ html {
 
   .profile-images img {
     max-height: 150px;
+    max-width: 200px;
+    height: auto;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .robot-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .robot-images img {
+    max-height: 300px;
     max-width: 200px;
     height: auto;
     width: auto;
